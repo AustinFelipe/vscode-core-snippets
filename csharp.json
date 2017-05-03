@@ -33,15 +33,11 @@
 	"Controller Method": {
 		"prefix": "controllerMethod",
 		"body": [
-			"using Microsoft.AspNetCore.Mvc;",
-			"",
-			"namespace $1",
+			"public async Task<IActionResult> $1()",
 			"{",
-			"    [Route(\"api/[controller]\")]",
-			"    public class $2Controller : Controller",
-			"    {",
-			"        $0",
-			"    }",
+			"    $0",
+			"",
+			"    return Ok($2);",
 			"}"
 		],
 		"description": "Create a controller with namespace and class"
