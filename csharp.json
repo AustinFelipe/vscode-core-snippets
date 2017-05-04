@@ -17,6 +17,7 @@
 		"prefix": "controllerClass",
 		"body": [
 			"using Microsoft.AspNetCore.Mvc;",
+			"using System.Threading.Tasks;",
 			"",
 			"namespace $1",
 			"{",
@@ -41,5 +42,13 @@
 			"}"
 		],
 		"description": "Create a controller with namespace and class"
+	},
+
+	"Route Attribute": {
+		"prefix": "route",
+		"body": [
+			"[Route(\"$0\")]"
+		],
+		"description": "Helps with the Route attribute :)"
 	}
 }
