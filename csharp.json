@@ -50,5 +50,22 @@
 			"[Route(\"$0\")]"
 		],
 		"description": "Helps with the Route attribute :)"
+	},
+
+	"Fact snippet": {
+		"prefix": "factMethod",
+		"body": [
+			"[Fact]",
+			"public async Task $1()",
+			"{",
+			"    // Arrange",
+			"    $0",
+			"    // Act",
+			"    ",
+			"    // Assert",
+			"    ",
+			"}"
+		],
+		"description": "XUnit method test o/"
 	}
 }
